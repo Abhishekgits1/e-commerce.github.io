@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.coverimg1{
+    width: 100%;
+    height: 900px;
+}
+
+
+
+
+
+/* index css */
+
+
+.cvrimg {
+  padding-top: 30px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.centered-text {
+  position: absolute;
+  font-family: 'Pacifico', cursive;
+  width: 80%;
+  padding-top: 35px;
+  display: flex;
+  top: 45%;
+  left: 50%;
+  height: 30rem;
+  transform: translate(-50%, -50%);
+  font-size: 4.6vw;
+  text-align: center;
+  justify-content: center;
+  -webkit-text-stroke: 3px rgb(31, 19, 22);
+  color: transparent;
+  filter: brightness(10px);
+
+
+}
+
+.center-text {
+  position: absolute;
+  font-family: 'Pacifico', cursive;
+  padding-top: 80px;
+  height: 17rem;
+  width: 80%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 1.6vw;
+  text-align: center;
+  justify-content: center;
+  -webkit-text-stroke: 2.2px rgb(9, 0, 4);
+
+}
+
+
+.hover_effect {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  display: block;
+  width: 100%;
+  padding: 100px;
+  z-index: 2;
+  text-decoration: none;
+  color: transparent;
+  font-size: 4vw;
+  font-weight: 300px;
+  -webkit-touch-callout: none;
+}
+
+
+.hover_effect:hover {
+  color: #fffefe;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -ms-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
+  cursor: pointer;
+}
+
+.card {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.card {
+ 
+        flex: 1;
+        border-radius: 8px;
+        overflow: hidden;
+        flex-direction: column;
+        margin-bottom: 10px;
+      
+    } 
+
+    @media only screen and (max-width: 667px) {
+.centered-text {
+font-size: 5vh;
+width: 100%;
+}
+}
+    @media only screen and (max-width: 667px) {
+.center-text {
+  top: 36%;
+right: 10%;
+text-align: center;
+margin-top: 12px;
+font-size: 2.8vh;
+width: 70%;
+}
+}
+    @media only screen and (max-width: 894px) {
+.centered-text {
+font-size: 5vh;
+width: 100%;
+}
+}
+    @media only screen and (max-width: 894px) {
+.center-text {
+  top: 45%;
+right: 10%;
+text-align: center;
+margin-top: 12px;
+font-size: 2.8vh;
+width: 70%;
+}
+}
+
+    @media only screen and (max-width: 1180px) {
+.centered-text {
+margin-top: 20px;
+font-size: 8vh;
+
+}
+}
+    @media only screen and (max-width: 1180px) {
+.center-text {
+right: 10%;
+text-align: center;
+margin-top: 16px;
+font-size: 3vh;
+width: 70%;
+}
+}
+    @media only screen and (max-width: 1450px) {
+.centered-text {
+margin-top: 20px;
+font-size: 6vh;
+width: 100%;
+}
+}
+    @media only screen and (max-width: 1450px) {
+.center-text {
+right: 10%;
+text-align: center;
+margin-top: 40px;
+font-size: 3vh;
+width: 70%;
+}
+}
+
+

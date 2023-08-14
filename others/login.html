@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../styles/cardstyl.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $(function () {
+      $("#header").load('../../includes/header.html');
+      $("#footer").load('../../includes/footer.html');
+    });
+  </script>
+
+  <script src="../../javascript/login.js"></script>
+
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <h1 class="text-center p-5 " ></h1>
+  <div class="container mb-5 bg-body-tertiary" style="padding-top: 70px ; height: 600px;">
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header hod bg-light  text-center">
+            <h2 >Login</h2>
+          </div>
+          <div class="card-body">
+            <form id="login-form">
+              <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="email" name="username"
+                  placeholder="Enter your username or email">
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password"
+                  placeholder="Enter your password">
+              </div>
+              <div class="text-center">
+                <input type="button" onclick="validate(this.form)" value="Login"
+                  class="btn btn-outline-dark form-control">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer"></div>
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,27 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,300;1,400&family=Dancing+Script&family=Great+Vibes&family=Merienda:wght@300;400;500;600;700;800&family=Pacifico&family=Parisienne&family=Rock+Salt&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    flex: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+}
+
+
+.hod {
+
+    font-family: 'Pacifico', cursive;
+    margin: 20px;
+    padding-top:190px;
+
+}
